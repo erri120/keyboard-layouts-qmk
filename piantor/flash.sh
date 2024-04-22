@@ -1,4 +1,4 @@
-sudo mount -t vfat -o rw,user,uid=$USER,gid=$USER /dev/sdf1 /media/$USER/piantor
+sudo mount -t vfat -o rw,user,uid=$USER,gid=$USER /dev/sdd1 /media/$USER/piantor
 echo "mounted"
 
 qmk flash erri120.json
